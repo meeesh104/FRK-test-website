@@ -99,3 +99,51 @@ body.light-mode .contact { background: linear-gradient(115deg, #f5dce9, var(--in
 body.light-mode .button-primary { color: #fff; }
 body.light-mode .button-primary:hover { color: var(--paper); }
 @media (max-width: 760px) { .nav-actions { margin-left: auto; order: 2; } .nav-links { order: 3; margin-left: 0; } }
+/* =====================================
+   PART 3: FRK IMAGE STYLING
+===================================== */
+
+/* Style for all company images */
+.company-image {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 20px auto;
+}
+
+/* Container styling */
+.image-container {
+    text-align: center;
+    margin: 30px 0;
+    padding: 15px;
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+/* FRK logo styling */
+.frk-logo {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin: 20px auto;
+}
+
+/* Responsive styling for mobile */
+@media (max-width: 768px) {
+    .company-image {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .frk-logo {
+        max-width: 250px;
+    }
+
+    .image-container {
+        padding: 10px;
+    }
+}
