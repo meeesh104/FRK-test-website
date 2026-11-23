@@ -253,3 +253,27 @@ main .section p {
         max-width: 280px;
     }
 }
+/* =====================================
+   FRK HOMEPAGE TEXT ALIGNMENT
+===================================== */
+
+/* Center all text underneath the logo */
+.hero-content > p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Center the main description */
+.hero-description {
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Keep the Explore FRK button centered */
+.hero-content > .button {
+    display: inline-flex;
+    margin: 25px auto;
+}
