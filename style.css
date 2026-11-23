@@ -147,3 +147,77 @@ body.light-mode .button-primary:hover { color: var(--paper); }
         padding: 10px;
     }
 }
+/* =====================================
+   FRK CENTERED WEBSITE LAYOUT
+===================================== */
+
+/* Center main section content */
+main .section,
+main .hero {
+    text-align: center;
+}
+
+/* Center headings and paragraphs */
+main h1,
+main h2,
+main h3,
+main p {
+    text-align: center;
+}
+
+/* Center all images */
+.company-image,
+.frk-logo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Center image containers */
+.image-container {
+    text-align: center;
+    margin: 30px auto;
+}
+
+/* Center content containers */
+main .container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Center feature cards */
+.features-grid {
+    justify-content: center;
+}
+
+.feature-card {
+    text-align: center;
+}
+
+/* Center buttons */
+main .button {
+    display: table;
+    margin: 25px auto;
+}
+
+/* Keep paragraphs readable */
+main .section p {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Responsive mobile layout */
+@media (max-width: 768px) {
+    main .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .company-image {
+        width: 100%;
+        height: auto;
+    }
+}
