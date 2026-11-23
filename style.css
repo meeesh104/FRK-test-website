@@ -221,3 +221,35 @@ main .section p {
         height: auto;
     }
 }
+/* FRK Homepage Logo Alignment */
+
+.hero-content {
+    width: 100%;
+    text-align: center;
+}
+
+.hero-logo-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 30px;
+    padding: 0;
+    line-height: 1;
+}
+
+.hero-logo-title .frk-logo {
+    display: block;
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .hero-logo-title .frk-logo {
+        max-width: 280px;
+    }
+}
